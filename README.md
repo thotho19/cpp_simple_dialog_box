@@ -12,3 +12,7 @@
     - Call **WinMain()** function with the required configuration
     - Call **WindowFunc()** for message handling
     - Call **DialogFunc()** with specific message listening
+
+
+# Results 
+![Results](https://user-images.githubusercontent.com/42491711/121180322-65cd3280-c869-11eb-98d5-1df07eadfa9d.jpg)
