@@ -1,0 +1,37 @@
+#include <windows.h>
+#include <commctrl.h>
+#include <richedit.h>
+#include "resource.h"
+
+
+MyMenu MENU
+{
+    POPUP "&Dialog"{
+        MENUITEM "&Dialog\tF2", IDM_DIALOG
+        MENUITEM "&Exit\tF3", IDM_EXIT 
+    }
+    MENUITEM "&Help", IDM_HELP 
+}
+
+MyMenu ACCELERATORS
+{ 
+    VK_F2, IDM_DIALOG, VIRTKEY
+    VK_F3, IDM_EXIT, VIRTKEY
+    VK_F1, IDM_HELP, VIRTKEY 
+}
+
+MyDB DIALOG 10, 10, 210, 110
+CAPTION "Books Dialog Box"
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+{ 
+    DEFPUSHBUTTON "Author", IDD_AUTHOR, 11, 10, 36, 14,
+        WS_CHILD | WS_VISIBLE | WS_TABSTOP
+    PUSHBUTTON "Publisher", IDD_PUBLISHER, 11, 34, 36, 14,
+        WS_CHILD | WS_VISIBLE | WS_TABSTOP
+    PUSHBUTTON "Copyright", IDD_COPYRIGHT, 11, 58, 36, 14,
+        WS_CHILD | WS_VISIBLE | WS_TABSTOP
+    PUSHBUTTON "Cancel", IDCANCEL, 11, 82, 36, 16,
+        WS_CHILD | WS_VISIBLE | WS_TABSTOP 
+}
+
+

@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1622972856 source:c:\users\thoal\desktop\new folder (2)\main\main.cpp
+	<windows.h>
+	<string.h>
+	<stdio.h>
+	"resource.h"
+
+1622937204 c:\users\thoal\desktop\new folder (2)\main\resource.h
+
+1622937992 source:c:\users\thoal\desktop\new folder (2)\main\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1622937992 source:c:\users\thoal\desktop\asenior 2st\windowsproc_2\theoretical\homeworks\#1_implementation_of_dialog_program\main\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1622937204 c:\users\thoal\desktop\asenior 2st\windowsproc_2\theoretical\homeworks\#1_implementation_of_dialog_program\main\resource.h
+
